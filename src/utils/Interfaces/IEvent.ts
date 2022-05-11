@@ -1,10 +1,10 @@
-interface IContent {
+export interface IContent {
     title: string
     text: string
     img?: string
 }
 
-export default interface IEvent {
+export interface IEvent<T = any> {
     _id: string
-    content: IContent | IContent[]
+    content: T
 }
