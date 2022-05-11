@@ -1,0 +1,16 @@
+.card-render {
+    border: 2px solid red;
+    border-radius: 14px;
+}
+.card-render__main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-render__title {
+    font-size: 30px;
+}
+.card-render__children {
+    font-size: 16px;
+}
